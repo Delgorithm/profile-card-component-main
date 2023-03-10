@@ -61,7 +61,7 @@ I find it very amusing to know what I'm doing and how it works. I'm still learni
 
 ## Author
 
-- Website - [Delgorithl](https://www.your-site.com)
+- Website - [Delgorithm](https://www.your-site.com)
 - Frontend Mentor - [@Delgorithm](https://www.frontendmentor.io/profile/Delgorithme)
 - Twitter - [@Delgorithm](https://twitter.com/delgorithm)
 

@@ -1,0 +1,213 @@
+:root{
+    --color-primary-100: hsl(185, 75%, 39%);
+    --color-primary-200: hsl(229, 23%, 23%);
+    --color-primary-300: hsl(227, 10%, 46%);
+    --color-primary-400: hsl(0, 0%, 59%);
+    --color-primary-500: hsl(0, 0%, 100%);
+
+    --ff-base:"Kumbh Sans", serif;
+
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+*, *::before, *::after {
+
+  box-sizing: border-box;
+
+}
+
+* {
+
+  margin: 0;
+
+}
+
+html, body {
+
+  height: 100%;
+
+}
+
+body {
+
+  line-height: 1.5;
+  overflow: hidden;
+
+  -webkit-font-smoothing: antialiased;
+
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+    background-color: rgba(26,162,176,255);
+    display: grid;
+    place-content: center;
+    margin: 1rem;
+}
+
+.profile{
+    --content-padding: 1.5rem;
+    --content-spacing: 1rem;
+    display: grid;
+    background-color: var(--color-primary-500);
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 400px;
+}
+
+
+
+.profile__picture{
+    display: grid;
+    place-content: center
+}
+
+.profile__picture-victor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+}
+
+.flex-group-name-age{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile__name{
+    text-transform: var(--fw-bold);
+}
+
+.profile__age{
+    font-size: 1.1rem;
+    color: var(--color-primary-300);
+}
+
+.profile__city{
+    display: grid;
+    place-content: center;
+    font-size: var(--fw-regular);
+    color: var(--color-primary-300);
+}
+
+.profile__stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile__stats-followers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.profile__stats-likes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.profile__stats-photos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem
+}
+
+p.profile__stats-followers-numbers{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+p.profile__stats-followers-category{
+    color: var(--color-primary-300);
+    font-weight: var(--ff-regular);
+    font-size: 0.7125rem;
+    letter-spacing: 0.105rem;
+}
+
+p.profile__stats-likes-numbers{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+p.profile__stats-likes-category{
+    color: var(--color-primary-300);
+    font-size: var(--ff-regular);
+    font-size: 0.7125rem;
+    letter-spacing: 0.105rem;
+}
+
+p.profile__stats-photos-numbers{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+p.profile__stats-photos-category{
+    color: var(--color-primary-300);
+    font-size: var(--ff-regular);
+    font-size: 0.7125rem;
+    letter-spacing: 0.105rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img, picture, video, canvas, svg {
+
+  display: block;
+
+  max-width: 100%;
+
+}
+
+input, button, textarea, select {
+
+  font: inherit;
+
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+
+  overflow-wrap: break-word;
+  line-height: 1;
+
+}
+
+#root, #__next {
+
+  isolation: isolate;
+
+}
